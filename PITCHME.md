@@ -25,6 +25,7 @@ GAE Google App Engine
     - AWS Lambdaのようなサーバーレス
 - Cloud Database
     - NoSQL
+- AutoML VISION
 
 ---
 
@@ -38,15 +39,33 @@ GAE Google App Engine
 
 ---
 
+## AutoML VISION
+
+---
+
+### AutoML VISIONの始め方
+
+1. 一般データセットのインポート
+2. ラベル選択
+3. 学習開始ボタンを押す
+
+---
+
 ## BigQuery
 
 ---
 
-データ分析に使用することができるNoSQL
+### データ分析に使用することができるNoSQL
 
 ---
 
 ### 実際にやってみよう！
+
+---
+
+1. にアクセス
+2. Googleアカウントでログイン
+3. 
 
 ---
 
@@ -56,10 +75,24 @@ BigQueryの無料枠と同様の環境を、クレジットカード登録なし
 
 ---
 
-### 実際のDB
+## 実際のDB
 
 ---
 
-### PythonでBigQuery
+## PythonでBigQuery
 
 ---
+
+1. google cloud ライブラリを実行
+```
+$ pip3 install google-cloud
+```
+2. BigQueryをインポート
+```
+from google-cloud import bigquery
+```
+
+---
+
+## 
+
