@@ -84,15 +84,25 @@ BigQueryの無料枠と同様の環境を、クレジットカード登録なし
 ---
 
 1. google cloud ライブラリを実行
+
 ```
 $ pip3 install google-cloud
 ```
+
 2. BigQueryをインポート
+
 ```
 from google-cloud import bigquery
 ```
 
 ---
 
-## 
+### コード例）クエリを投げて、新しくデータセットを作成する
+
+```
+import bigquery
+
+def createBigQueryDataSet():
+    
+```
 
