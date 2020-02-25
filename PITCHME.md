@@ -22,7 +22,7 @@ Googleのインフラをそのまま公開した、
 ### GCPとは
 
 - 世界のネットワークトラフィックの約40%がGoogle
-- Google独自の海底ケーブルがある（他社はなし）
+- Google独自の海底ケーブルが8本ある（他社はなし）
 - インフラのハードウェアも自社開発のもの
 - LivwMigration・・・ダウンタイムのない運用
 - 3年間で5兆円の技術投資を行っている
@@ -32,6 +32,8 @@ Googleのインフラをそのまま公開した、
 ### GCPとは
 
 - 強みは***ネットワーク***
+- Regionは大阪と東京
+- 同国に複数Regionがあるのは日米だけ
 
 ---
 
@@ -49,10 +51,11 @@ GAE・・・Google App Engine
 
 ---
 
+- Cloud Storage
 - Cloud SQL
     - データ分析基盤
 - Spanner
-- Cloud Storage
+- Google Datastore
 - Cloud Function
     - AWS Lambdaのようなサーバーレス
 - Cloud Database
@@ -61,13 +64,21 @@ GAE・・・Google App Engine
 
 ---
 
-## Kurbenetes
+## GKE
 
 ---
 
-### Kurbenetesとは
+### GKEとは
 
-サーバーコンテナ管理ツール
+- Kubernetesによるコンテナ管理を行えるVM
+
+---
+
+### Kubernetesとは
+
+- クーバネティス、クバネティスと呼ぶ
+- サーバーコンテナオーケストレーションツール
+- k8sと略される
 
 ---
 
