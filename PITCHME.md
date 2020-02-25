@@ -4,12 +4,44 @@
 
 ---
 
+Google Cloudは二つのサービス
+
+- Google Cloud Platform（以後、GCP）
+- G Suite・・・Google DocumentsやSpread Sheet, Gmailなど
+
+---
+
+### GCPとは
+
+Googleのインフラをそのまま公開した、
+
+プロダクトアウトのサービス
+
+---
+
+### GCPとは
+
+- 世界のネットワークトラフィックの約40%がGoogle
+- Google独自の海底ケーブルがある（他社はなし）
+- インフラのハードウェアも自社開発のもの
+- LivwMigration・・・ダウンタイムのない運用
+- 3年間で5兆円の技術投資を行っている
+
+---
+
+### GCPとは
+
+- 強みは***ネットワーク***
+
+---
+
 ## GCEとGAE
 
 ---
 
-GCE Google Compute Engine
-GAE Google App Engine
+GCE・・・Google Compute Engine
+
+GAE・・・Google App Engine
 
 ---
 
