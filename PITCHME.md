@@ -1,6 +1,7 @@
 ---
 
 ## Google Cloud Platform
+BigQueryハンズオン勉強会
 
 ---
 
