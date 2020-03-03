@@ -5,6 +5,11 @@ BigQueryハンズオン勉強会
 
 ---
 
+## Google CLoud
+
+---
+
+### Google Cloud
 Google Cloudは二つのサービス
 
 - Google Cloud Platform（以後、GCP）
