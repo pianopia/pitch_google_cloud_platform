@@ -11,9 +11,10 @@ BigQueryハンズオン勉強会
 
 ### Google Cloud
 Google Cloudは二つのサービス
-
+@ul[list-spaced-bullets text-09]
 - Google Cloud Platform（以後、GCP）
 - G Suite・・・Google DocumentsやSpread Sheet, Gmailなど
+@ulend
 
 ---
 
