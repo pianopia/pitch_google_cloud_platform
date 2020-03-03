@@ -18,7 +18,7 @@ Google Cloudは二つのサービス
 
 ---
 
-### GCPとは
+### GCP
 
 Googleのインフラをそのまま公開した、
 
@@ -26,7 +26,7 @@ Googleのインフラをそのまま公開した、
 
 ---
 
-### GCPとは
+### GCP
 @ul[list-spaced-bullets text-09]
 - 世界のネットワークトラフィックの約40%がGoogle
 - Google独自の海底ケーブルが8本ある（他社はなし）
@@ -37,11 +37,13 @@ Googleのインフラをそのまま公開した、
 
 ---
 
-### GCPとは
+### GCP
 
+@ul[list-spaced-bullets text-09]
 - 強みは***ネットワーク***
 - Regionは大阪と東京
 - 同国に複数Regionがあるのは日米だけ
+@ulend
 
 ---
 
@@ -59,16 +61,18 @@ GAE・・・Google App Engine
 
 ---
 
+@ul[list-spaced-bullets text-09]
 - Cloud Storage
 - Cloud SQL
-    - データ分析基盤
+  - データ分析基盤
 - Spanner
 - Google Datastore
 - Cloud Function
-    - AWS Lambdaのようなサーバーレス
+  - AWS Lambdaのようなサーバーレス
 - Cloud Database
-    - NoSQL
+  - NoSQL
 - AutoML VISION
+@ulend
 
 ---
 
@@ -77,7 +81,6 @@ GAE・・・Google App Engine
 ---
 
 ### GKEとは
-
 - Kubernetesによるコンテナ管理を行えるVM
 
 ---
