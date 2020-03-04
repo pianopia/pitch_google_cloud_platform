@@ -153,7 +153,7 @@ BigQueryの無料枠と同様の環境を、
 
 ---
 
-## 実際のBigQuery & FirebaseAnalyticsデータ
+### LXでのBigQuery & FirebaseAnalyticsデータ
 
 ---
 
