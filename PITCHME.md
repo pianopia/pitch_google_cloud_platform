@@ -88,6 +88,8 @@ GAE・・・Google App Engine
 - Cloud Function AWS Lambdaのようなサーバーレスa
 - Cloud Scheduler 定期実行や予約実行が可能なスケジューラ
 - AutoML Vision コードレスでAIや機械学習向け画像認識作成サービス
+その他のサービスを簡単に知りたい場合以下
+https://cloud-textbook.com/37/
 @ulend
 
 ---
