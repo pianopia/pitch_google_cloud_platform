@@ -85,8 +85,9 @@ GAE・・・Google App Engine
 - Cloud SQL データ分析基盤
 - Spanner 大規模データ分散が可能なRDB
 - Google Datastorea 永続的な Key-Value ストア
-- Cloud Function AWS Lambdaのようなサーバーレス
-- AutoML VISION
+- Cloud Function AWS Lambdaのようなサーバーレスa
+- Cloud Scheduler 定期実行や予約実行が可能なスケジューラ
+- AutoML Vision コードレスでAIや機械学習向け画像認識作成サービス
 @ulend
 
 ---
