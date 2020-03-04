@@ -57,6 +57,25 @@ GAE・・・Google App Engine
 
 ---
 
+### GCE
+@ul[list-spaced-bullets text-09]
+- 仮想マシン (IaaS)
+- Linux や Windows サーバを立ち上げることができる
+- CPU のコア数やメモリを調整することも可能 (カスタムマシンタイプ)
+@ulend
+
+---
+
+### GAE
+@ul[list-spaced-bullets text-09]
+- GCP における PaaS サービス。
+- アプリをデプロイするだけで、インフラは GCP におまかせ
+- 環境構築が不要なので、オートスケールも簡単
+- 対応言語は Node.js、Java、Ruby、C#、Go、Python、PHP
+@ulend
+
+---
+
 ## その他のサービス
 
 ---
@@ -86,10 +105,14 @@ GAE・・・Google App Engine
 ---
 
 ### Kubernetesとは
-
+@ul[list-spaced-bullets text-09]
 - クーバネティス、クバネティスと呼ぶ
 - サーバーコンテナオーケストレーションツール
-- k8sと略される
+- 複数マシンで同じコンテナを動作
+- 複数コンテナにロードバランシング
+- リクエストが増えてきたらコンテナを増やしたり (オートスケール)
+- コンテナが死んだら再起動したり
+@ulend
 
 ---
 
@@ -149,14 +172,4 @@ $ pip3 install google-cloud
 from google-cloud import bigquery
 ```
 
----
-
-コード例：クエリを投げて、新しくデータセットを作成する
-
-```
-import bigquery
-
-def createBigQueryDataSet():
-    
-```
 
