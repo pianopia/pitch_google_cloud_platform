@@ -117,19 +117,21 @@ GAE・・・Google App Engine
 
 ---
 
-1. にアクセス
-2. Googleアカウントでログイン
-3. 
+### BigQuery Sandboxの使用
+
+1. ChromeでGoogleアカウントにログイン
+2. https://console.cloud.google.com/bigquery にアクセス
 
 ---
 
 ### BigQuery Sandbox
 
-BigQueryの無料枠と同様の環境を、クレジットカード登録なしで使用できるサービス
+BigQueryの無料枠と同様の環境を、
+クレジットカード登録なしで使用できるサービス
 
 ---
 
-## 実際のDB
+## 実際のBigQuery & FirebaseAnalyticsデータ
 
 ---
 
