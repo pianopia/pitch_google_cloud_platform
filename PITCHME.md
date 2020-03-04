@@ -81,15 +81,11 @@ GAE・・・Google App Engine
 ---
 
 @ul[list-spaced-bullets text-09]
-- Cloud Storage
-- Cloud SQL
-  - データ分析基盤
-- Spanner
-- Google Datastore
-- Cloud Function
-  - AWS Lambdaのようなサーバーレス
-- Cloud Database
-  - NoSQL
+- Cloud Storage ストレージ
+- Cloud SQL データ分析基盤
+- Spanner 大規模データ分散が可能なRDB
+- Google Datastorea 永続的な Key-Value ストア
+- Cloud Function AWS Lambdaのようなサーバーレス
 - AutoML VISION
 @ulend
 
